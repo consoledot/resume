@@ -1,44 +1,43 @@
 {
-    "name": "Anna Quincey",
-    "occupation": "Front-End Developer",
-    "location": "Vienna, AT",
+    "name": "Toyin Obasoro",
+    "occupation": "Product Marketing strategist/ Digital sales",
+    "location": "Lagos Nigeria",
     "avatar": "avatar.jpg",
-    "pronouns": "she/her",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
-    "skills": [
-        "HTML",
-        "CSS",
-        "Javascript / ES6",
-        "UI Design",
-        "React",
-        "Git"
+    "pronouns": "",
+    "email": "ogunmolalamide@gmail.com",
+    "telephone": "",
+    "website": "",
+    "tools": [
+        "Google Analytics",
+        "Yoast seo",
+        "Excel",
+        "Firebase",
+        "Microsoft 365",
+        "Canva",
+        "Trello",
+        "Microsoft Azure",
+        "Google Search Console"
     ],
     "languages": [
         {
             "name": "English",
-            "level": "native"
-        },
-        {
-            "name": "German",
             "level": "fluent"
         },
         {
-            "name": "French",
-            "level": "basic"
+            "name": "Yoruba",
+            "level": "native"
         }
     ],
     "social": [
         {
-            "name": "Github",
-            "user": "@annaquincey",
-            "url": "https://github.com/annaquincey"
+            "name": "Twitter",
+            "user": "@ogunmola_toyin",
+            "url": "https://twitter.com/ogunmola_toyin"
         },
         {
             "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
+            "user": "Oluwatoyin Obasoro",
+            "url": "https://www.linkedin.com/in/oluwatoyinobasaro/"
         }
     ]
 }

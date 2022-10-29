@@ -28,8 +28,18 @@ layout: base
             {% include "entrylist.njk" %}
         </section>
 
-    {% if author.skills or author.languages %}
+    {% if author.skills or author.languages or authour.tools  %}
         <div class="grid grid--2col">
+             {% if author.tools %}
+            <section class="section section--half" id="section-skills">
+                <h2 class="section__title">{{ strings.titles.tools }}</h2>
+                <ul class="bulletlist">
+                {% for tool in author.tools %}
+                    <li class="p-skill">{{ tool }}</li>
+                {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
             {% if author.skills %}
             <section class="section section--half" id="section-skills">
                 <h2 class="section__title">{{ strings.titles.skills }}</h2>
@@ -40,7 +50,7 @@ layout: base
                 </ul>
             </section>
             {% endif %}
-
+            
             {% if author.languages %}
             <section class="section section--half" id="section-languages">
                 <h2 class="section__title">{{ strings.titles.languages }}</h2>
